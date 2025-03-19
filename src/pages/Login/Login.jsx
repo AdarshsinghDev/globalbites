@@ -38,7 +38,7 @@ const Login = () => {
                   type="email"
                   value={userId}
                   onChange={(e) => setUserId(e.target.value)}
-                  placeholder="Email"
+                  placeholder="Email : user"
                 />
                 <FontAwesomeIcon className="input-icon" icon={faEnvelope} />
               </div>
@@ -49,7 +49,7 @@ const Login = () => {
                   type="password"
                   value={userPass}
                   onChange={(e) => setUserPass(e.target.value)}
-                  placeholder="Password"
+                  placeholder="Password : user123"
                 />
                 <FontAwesomeIcon className="input-icon" icon={faLock} />
                 <FontAwesomeIcon className="input-icon_eye" icon={faEye} />

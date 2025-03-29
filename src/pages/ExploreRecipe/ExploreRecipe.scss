@@ -9,18 +9,6 @@
             margin-bottom: 30px;
 
 
-             background: rgba(255, 255, 255, 0.8); /* Light background */
-    border-radius: 15px; /* Soft rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    transition: all 0.3s ease-in-out;
-
-    &:hover {
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhance on hover */
-    }
-            
             .explore-top-container-inner{
                 display: flex;
                 justify-content: center;
@@ -33,10 +21,7 @@
 
                 .input-container{
                     width: 60%;
-                    background: #ffffff; /* White background for input field */
-            border-radius: 10px;
-            padding: 10px;
-            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+                   
 
                     .input-textarea{
                         width: 100%;

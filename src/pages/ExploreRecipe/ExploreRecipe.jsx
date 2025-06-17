@@ -40,7 +40,7 @@ function ExploreRecipe() {
                 <textarea
                   value={text}
                   onChange={handleInput}
-                  placeholder="Enter ingredients (e.g., rice, sugar, milk)"
+                  placeholder="Enter ingredients (e.g. Paneer, Masala)"
                   className="input-textarea"
                 />
               </div>
